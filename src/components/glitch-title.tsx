@@ -82,12 +82,12 @@ export default function GlitchTitle() {
 
   return (
     <div>
-      <h1 className="flex items-center text-8xl transition-all">
+      <h1 className="flex items-center text-4xl transition-all sm:text-8xl">
         <span>{battery}</span>
         <span>_</span>
         <span>{pass}</span>
       </h1>
-      <p className="ml-2 inline-flex bg-green-400 p-1 text-sm text-black">
+      <p className="ml-[2px] inline-flex bg-green-400 p-1 text-xs text-black sm:ml-2 sm:text-sm">
         v{config.version}
       </p>
     </div>
