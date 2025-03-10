@@ -1,7 +1,7 @@
 "use client";
 
 import { Random, Range } from "kdim";
-import { version } from "package.json";
+import config from "package.json";
 import React from "react";
 
 const BATTERY = "BATTERY";
@@ -88,7 +88,7 @@ export default function GlitchTitle() {
         <span>{pass}</span>
       </h1>
       <p className="ml-2 inline-flex bg-green-400 p-1 text-sm text-black">
-        v{version}
+        v{config.version}
       </p>
     </div>
   );
