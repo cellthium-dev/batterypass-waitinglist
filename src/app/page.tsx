@@ -17,7 +17,7 @@ export default function HomePage() {
         </div>
       </div>
       <div className="absolute bottom-12 text-sm sm:text-base">
-        Cellthium Labs.
+        Battery Pass Labs.
       </div>
     </main>
   );
