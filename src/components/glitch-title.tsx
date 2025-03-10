@@ -81,7 +81,7 @@ export default function GlitchTitle() {
   }, []);
 
   return (
-    <div className="gri">
+    <div>
       <h1 className="flex items-center text-8xl transition-all">
         <span>{battery}</span>
         <span>_</span>

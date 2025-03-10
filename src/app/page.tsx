@@ -9,11 +9,8 @@ export default function HomePage() {
       <div className="grid gap-y-6">
         <GlitchTitle />
         <div className="flex gap-x-2">
-          <Input className="" placeholder="Enter your email" />
-          <Button
-            className="flex w-fit items-center gap-x-2 place-self-center"
-            variant={"secondary"}
-          >
+          <Input className="dark:border-white" placeholder="Enter your email" />
+          <Button className="flex w-fit items-center gap-x-2 place-self-center">
             <BellDot />
             <span>Get notified</span>
           </Button>
